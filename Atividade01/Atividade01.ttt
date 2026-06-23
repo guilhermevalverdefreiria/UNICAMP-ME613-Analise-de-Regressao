@@ -1,0 +1,21 @@
+\begin{table}[t]
+\caption*{
+{\fontsize{20}{25}\selectfont  Análise dos Estimadores: Teoria vs Monte Carlo\fontsize{12}{15}\selectfont }
+}
+\fontsize{12.0pt}{14.0pt}\selectfont
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}cccc}
+\toprule
+ & \multicolumn{2}{c}{{Estimadores}} &  \\
+\cmidrule(lr){2-3}
+{\bfseries Medida} & {\bfseries \(\hat{\beta}_0\)} & {\bfseries \(\hat{\beta}_1\)} & {\bfseries } \\
+\midrule\addlinespace[2.5pt]
+Estimativa (Regressão) & -0.003019 & 1.009906 &  \\
+Média amostral (MC) & -0.00312 & 1.00988 &  \\
+Esperança teórica & 0 & 1 &  \\
+Variância amostral (Mc) & 0.000342 & 0.000187 &  \\
+Variância teórica & 0.000333 & 0.00017 &  \\
+Cov(B0, B1) &  &  & -0.000004 \\
+s² &  &  & 0.341676 \\
+\bottomrule
+\end{tabular*}
+\end{table}
